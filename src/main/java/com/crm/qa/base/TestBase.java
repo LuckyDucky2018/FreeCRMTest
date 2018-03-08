@@ -28,9 +28,6 @@ public class TestBase {
 			System.out.println("file not found");
 			e.printStackTrace();
 		} catch (IOException e) { // this exception is for prop.load
-		
-			System.out.println("asdasdasd");
-		//
 			e.printStackTrace();
 		}
 
